@@ -1,0 +1,81 @@
+.Church{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.Church .container{
+    /* border: 1px solid red; */
+    display: grid;
+    width: 85%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+   
+    margin: 100px auto;
+
+
+    
+}
+.Church .container img{
+    cursor: pointer;
+    box-shadow: 2px 2px 15px 2px #343434;
+
+
+    
+}
+
+
+
+.Church .hugeimage{
+
+
+
+    width: 85%;
+ 
+    margin: 0 auto;
+}
+
+.Church .hugeimage img{
+
+
+    margin-top: 30px;
+    width: 100%;
+ 
+    
+}
+
+@media screen and (max-width:1200px) {
+    .Church .container{
+        /* border: 1px solid red; */
+        display: grid;
+        width: 90%;
+        grid-template-columns: 1fr 1fr ;
+        gap: 15px;
+        margin: 100px auto;
+}
+
+}
+
+@media screen and (max-width:900px) {
+    .Church .container{
+        /* border: 1px solid red; */
+        display: grid;
+        width: 60%;
+        grid-template-columns: 1fr 1fr ;
+        gap: 10px;
+        margin: 100px 40px;
+}
+
+}
+
+@media screen and (max-width:800px) {
+    .Church .container{
+      
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        grid-template-columns: 1fr  ;
+        gap: 10px;
+        margin: 0px auto;
+}
+
+}

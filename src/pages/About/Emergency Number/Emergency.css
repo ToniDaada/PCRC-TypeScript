@@ -1,0 +1,43 @@
+.Emergency .UpperSecurity{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    /* border: 1px solid red; */
+align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.Emergency .UpperSecurity img{
+    width: 100%;
+    margin-bottom: 50px;
+   
+   }
+.Emergency .LowerSecurity{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 90%;
+    /* border: 1px solid red; */
+    
+    
+    gap: 20px;
+align-items: center;
+    margin: 0 auto;
+ 
+}
+
+.Emergency .LowerSecurity img{
+ width: 100%;
+ margin-bottom: 50px;
+
+
+
+}
+.Emergency p{
+    width: 80%;
+    margin: 0 auto;
+    color: #000000;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 100px;
+}

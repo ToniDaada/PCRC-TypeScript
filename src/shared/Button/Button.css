@@ -1,0 +1,44 @@
+.sharedbutton{
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: #2A166F;
+    color: #FFFFFF;
+    border-radius: 5px;
+
+}
+
+.sharedbutton:hover{
+    color: #2A166F;
+    background: #FFFFFF;
+    transition: .5s;
+   
+}
+
+
+.sharedbutton.clear{
+    text-align: left;
+    padding: 15px;
+    background: #EEEEEE;
+    color: gray;
+    border-radius: 0px;
+    width: 98%;
+    margin-bottom: 20px;
+}
+
+.sharedbutton.text-center{
+   
+
+
+    padding: 15px;
+    background: #EEEEEE;
+    color: gray;
+    border-radius: 0px;
+    width: 98%;
+    margin-bottom: 20px;
+}
+.sharedbutton.whitetransparent{
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color: transparent;
+}

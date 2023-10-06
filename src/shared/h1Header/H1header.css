@@ -1,0 +1,16 @@
+.H1header {
+    width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.H1header h1{
+    color: #030303;
+}
+
+.H1header .blueunderline{
+    width: 20%;
+border: 1px solid  #2A166F;
+margin: 0 auto;
+
+}

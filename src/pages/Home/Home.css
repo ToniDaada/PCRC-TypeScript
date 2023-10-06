@@ -1,0 +1,61 @@
+.Home .Security{
+    background: #0066CC;
+    text-align: center;
+    padding: 30px;
+  
+}
+
+.Home .Security .UpperSecurity{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    /* border: 1px solid red; */
+align-items: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.Home .Security .UpperSecurity img{
+ width: 100%;
+
+}
+.Home .Security p{
+    width: 80%;
+    margin: 0 auto;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+}
+.Home .Security .LowerSecurity{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80%;
+    
+    gap: 20px;
+align-items: center;
+    margin: 0 auto;
+ 
+}
+
+.Home .Security .LowerSecurity img{
+ width: 100%;
+ margin-bottom: 50px;
+
+}
+
+.Home .container{
+    width: 95%;
+    margin: 0 auto;
+}
+.Home .container img{
+    height: 100%;
+    width: 100%;
+}
+
+.Home .sliderheight{
+    /* border: 3px solid red; */
+    /* height: 500px; */
+    /* width: 95%;
+    margin: 0 auto;
+    object-fit: contain; */
+}

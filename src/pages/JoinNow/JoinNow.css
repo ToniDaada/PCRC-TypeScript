@@ -1,0 +1,48 @@
+.JoinNowcontainer{
+        overflow: hidden;
+}
+
+.JoinNowcontainer .JoinNowbody{
+    
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+ align-items: center;
+ text-align: center;
+ 
+}
+
+
+.JoinNowcontainer .JoinNowbody .inputfield{
+    margin: 0 auto;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    margin-bottom: 50px;
+   
+}
+
+.JoinNowcontainer .JoinNowbody .center{
+    width: 30%;
+    margin: 0 auto;
+   
+}
+
+@media screen and (max-width:1000px) {
+  
+    .JoinNowcontainer .JoinNowbody .inputfield{
+        margin: 0 auto;
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 60px;
+        margin-bottom: 50px;
+    }    
+    .JoinNowcontainer .JoinNowbody .center{
+        width:50%;
+      
+       
+    }
+
+}

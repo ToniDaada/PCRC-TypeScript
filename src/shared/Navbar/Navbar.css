@@ -1,0 +1,95 @@
+
+.Navbarcontainer{
+    width: 100%;
+    position: relative;
+    top: 0;
+    /* position: fixed;
+    z-index: 1;
+     */
+}
+
+.Navbarcontainer .uppernav{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+    padding: 15px;
+    align-items: center;
+
+}
+.Navbarcontainer .uppernav .logo{
+    width: 20%;
+    /* border: 1px solid red; */
+}
+.Navbarcontainer .uppernav .navlinks{
+    width: 75%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+   list-style: none;
+   cursor: pointer;
+   align-items: center;
+}
+.Navbarcontainer .uppernav .navlinks a{
+    color: #0066CC;
+    text-decoration: none;
+}
+.Navbarcontainer .yellownav{
+    width:100%;
+    background-color:  #E3CE03;
+    border: 3px solid transparent
+
+    
+}
+.Navbarcontainer .uppernav .hamburger{
+    display: none;
+    width: 100px;
+    padding: 10px;
+}
+
+.Navbarcontainer .uppernav .hamburger .navbar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #E3CE03;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:1000px) {
+
+    .Navbarcontainer .uppernav .hamburger{
+    display: block;
+  
+}
+
+.nav-.Navbarcontainer .uppernav .navlinks{
+    position: relative;
+
+  
+    position: fixed;
+
+    right: -100%;
+    top: 70px;
+   
+    gap: 0;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+     
+    
+    
+    transition: 0.5s;
+
+
+
+}
+.Navbarcontainer .uppernav .navlinks{
+    display: none;
+}
+
+}

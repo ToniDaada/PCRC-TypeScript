@@ -1,0 +1,80 @@
+.Statecontainer{
+
+    text-align: center;
+    
+
+}
+
+.Statecontainer .Statetext{
+    width: 58%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.Statecontainer .Statetext p{
+    line-height: 150%;
+    color: #000000;
+}
+.Statecontainer .Statetext span{
+    color: #0066CC;
+    font-weight: 700;
+}
+
+
+.Statecontainer .StateAreacontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 70%;
+    gap: 40px;
+    margin: 0 auto;
+   
+   
+
+  
+
+}
+
+.Statecontainer .StateAreacontainer .Area  {
+    padding: 15px; 
+    box-shadow: 0px 4px 4px 0px #00000040;
+border: none;
+background-color: #FFFFFF;
+color: #0066CC;
+cursor: pointer;
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .Statecontainer .Statetext{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .Statecontainer .StateAreacontainer 
+    {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    .Statecontainer .StateAreacontainer 
+    {
+        grid-template-columns: 1fr 1fr ;
+    }
+    
+}
+
+
+@media screen and (max-width: 360px) {
+    
+    .Statecontainer .StateAreacontainer 
+    {
+        grid-template-columns: 1fr  ;
+    }
+    
+}
