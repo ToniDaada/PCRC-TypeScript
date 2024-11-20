@@ -18,8 +18,6 @@ import RoadWalk from "./pages/GalleryRoadWalk/RoadWalk";
 import Emergency from "./pages/About/Emergency Number/Emergency";
 import Sport from "./pages/GallerySport/Sport";
 
-
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -83,7 +81,6 @@ const router = createBrowserRouter([
     element:<Emergency/>
   }
 ]);
-
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
