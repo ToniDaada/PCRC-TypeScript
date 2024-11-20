@@ -2,25 +2,13 @@ import './Navbar.css'
 import pcrclogo from '../../assets/images/Pcrclogonav.svg'
 import Button from '../Button/Button'
 import { NavLink } from 'react-router-dom'
-
-
-
-
-
-
-
 const Navbar = () => {
-  return(
-
-
-
-  
+  return(  
     <div className='Navbarcontainer'>
         <div className='uppernav'>
             <div className='logo'>
              <img src={pcrclogo} alt="" />
-            </div>
-            
+            </div>          
 
                 <ul className='navlinks'>
                     <li> <NavLink  style={({isActive})=> {
@@ -75,8 +63,7 @@ const Navbar = () => {
                         content='Report A Case'
                         
                         />
-                        </NavLink>
-                      
+                        </NavLink>                     
                    
                 </ul>
 
@@ -86,22 +73,10 @@ const Navbar = () => {
            
                 </span>
                 <span className='navbar'></span>
-
-
-                </div>
-             
-
-           
-        
-
+                </div>               
         </div>
-
         <div className='yellownav'>
-
-        </div>
-    
-
-
+        </div> 
     </div>
   )
 }
