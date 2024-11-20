@@ -2,11 +2,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel }  from 'react-responsive-carousel'
 import Background from './BackgroundHeading/Background';
 
-
 const Sliderheading = () => {
   return (
     <div>
-
 <Carousel
 // width={'100%'}
 centerMode={true}
@@ -21,17 +19,11 @@ showStatus={false}
 showThumbs={false}
 infiniteLoop={true}
 dynamicHeight={false}
-
-
-
-
 >
 <div >
                 <Background
                 content='Welcome To PCRC'
-                />
-                   
-             
+                />             
                 </div>
                 <div>
                    <Background
@@ -56,32 +48,12 @@ dynamicHeight={false}
                 <div >
                  <Background
                  content="Welcome To PCRC"
-                 variants="pic2"
-                
-                 />
-                   
-                </div>
-   
-   
-              
-               
-
-
-
-
-
-</Carousel>
-
-
-
+                 variants="pic2"                
+                 />                   
+               </div>      
+          </Carousel>
     </div>
-  
-
-
-
-  
-
-  )
+    )
 }
 
 export default Sliderheading
